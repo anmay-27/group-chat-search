@@ -1,0 +1,4 @@
+* text=auto
+data/* -text whitespace=cr-at-eol
+*.npy binary
+*.png binary

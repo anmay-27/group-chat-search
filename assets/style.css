@@ -1,0 +1,76 @@
+﻿/* A small, responsive theme. Native Streamlit inputs remain keyboard accessible. */
+:root {
+  --ink: #183c32;
+  --muted: #64766f;
+  --line: #dfe7df;
+  --green: #187554;
+}
+.stApp { background: #f5f6ef; }
+.block-container { max-width: 1200px; padding: 2rem 2rem 3rem; }
+header[data-testid="stHeader"] { background: transparent; }
+h1, h2, h3, p { overflow-wrap: anywhere; }
+.brandbar { display: flex; align-items: center; justify-content: space-between; margin: 0 0 26px; }
+.brand { display: flex; align-items: center; gap: 11px; font-size: 18px; font-weight: 750; color: var(--ink); letter-spacing: -.5px; }
+.brandmark { width: 35px; height: 35px; border-radius: 11px; background: var(--ink); color: #ecf4ce; display: grid; place-items: center; font-size: 18px; }
+.archive-tag { color: var(--muted); font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; }
+.hero { background: #183c32; border-radius: 24px; padding: 37px 40px; color: #fff; margin-bottom: 28px; position: relative; overflow: hidden; }
+.hero:after { content: ""; position: absolute; width: 300px; height: 300px; right: -120px; top: -145px; border: 44px solid #ffffff06; border-radius: 50%; pointer-events: none; }
+.eyebrow { color: #c4daa0; letter-spacing: 2.3px; font-size: 11px; font-weight: 700; margin-bottom: 15px; }
+.hero h1 { color: #fff; max-width: 670px; font-size: clamp(30px, 4vw, 47px); font-weight: 650; line-height: 1.12; letter-spacing: -1.8px; padding: 0; margin: 0 0 14px; }
+.hero p { color: #c6d8cf; margin: 0; font-size: 16px; }
+.hero-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
+.hero-meta span { border: 1px solid #ffffff25; border-radius: 30px; padding: 6px 12px; font-size: 12px; color: #e0e9e0; }
+.section-label { color: var(--muted); letter-spacing: 1.5px; font-size: 10px; font-weight: 750; margin: 2px 0 9px; }
+.search-heading { color: var(--ink); font-size: 24px; font-weight: 650; letter-spacing: -.6px; margin-bottom: 6px; }
+.search-intro { color: var(--muted); font-size: 14px; margin-bottom: 17px; }
+[data-testid="stForm"] { border: 1px solid var(--line); border-radius: 16px; background: #fff; padding: 18px; }
+[data-testid="stTextInput"] input { font-size: 15px; }
+.stButton button, .stFormSubmitButton button { border-radius: 10px; min-height: 43px; }
+.stButton button { border-color: var(--line); background: #fff; color: var(--ink); }
+.stButton button:hover { border-color: var(--green); color: var(--green); }
+.stFormSubmitButton button { font-weight: 650; }
+.rail-card { background: #fff; border: 1px solid var(--line); border-radius: 18px; padding: 23px; margin-bottom: 16px; }
+.group-icon { width: 47px; height: 47px; border-radius: 15px; background: #edf1df; color: var(--ink); display: grid; place-items: center; font-size: 23px; margin-bottom: 17px; }
+.rail-card h3 { padding: 0; margin: 0 0 5px; color: var(--ink); font-size: 18px; letter-spacing: -.35px; }
+.rail-card p { color: var(--muted); font-size: 13px; line-height: 1.6; margin-bottom: 16px; }
+.people { display: grid; grid-template-columns: 1fr 1fr; gap: 15px 9px; margin: 19px 0; }
+.person { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--ink); }
+.avatar { flex-shrink: 0; width: 30px; height: 30px; display: grid; place-items: center; font-size: 11px; font-weight: 750; border-radius: 50%; background: #eaf0e5; color: #365943; }
+.rail-foot { border-top: 1px solid var(--line); padding-top: 14px; font-size: 11px; color: var(--muted); line-height: 1.6; }
+.tip-card { background: #eaf0e0; border: 0; }
+.tip-card p { margin: 0; color: #516650; }
+.empty-card { border: 1px dashed #cad5c8; border-radius: 18px; text-align: center; padding: 35px 28px; margin-top: 23px; }
+.empty-symbol { display: inline-grid; place-items: center; width: 46px; height: 46px; border: 1px solid #dbe4d5; border-radius: 14px; background: #fff; color: var(--green); font-size: 22px; margin-bottom: 15px; }
+.empty-card h3 { color: var(--ink); font-size: 19px; margin: 0 0 9px; padding: 0; }
+.empty-card p { color: var(--muted); font-size: 13px; line-height: 1.7; margin: 0 auto; max-width: 360px; }
+.results-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-top: 25px; }
+.results-heading h2 { color: var(--ink); font-size: 23px; padding: 0; margin: 0; letter-spacing: -.6px; }
+.results-heading span { color: var(--muted); font-size: 12px; }
+.query-label { font-size: 13px; color: var(--muted); margin: 8px 0 17px; overflow-wrap: anywhere; }
+.filter-chip { display: inline-block; background: #e5eddf; color: #416045; font-size: 11px; border-radius: 20px; padding: 5px 10px; margin: 0 5px 12px 0; }
+.result-card { border: 1px solid var(--line); border-radius: 18px; background: #fff; margin-bottom: 19px; overflow: hidden; box-shadow: 0 3px 15px #223c2a04; }
+.result-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; background: #fafbf8; padding: 14px 19px; border-bottom: 1px solid #edf0e9; }
+.result-number { font-size: 11px; letter-spacing: 1.1px; font-weight: 750; color: #52725b; }
+.similarity { color: var(--muted); font-size: 11px; }
+.similarity strong { color: var(--ink); font-size: 12px; margin-left: 4px; }
+.conversation { padding: 13px 18px; }
+.chat-row { display: flex; gap: 10px; padding: 10px 0; }
+.chat-content { min-width: 0; flex: 1; }
+.chat-meta { display: flex; flex-wrap: wrap; gap: 7px; align-items: center; margin-bottom: 5px; color: #7a887f; font-size: 10px; }
+.chat-name { color: #4b6255; font-weight: 650; font-size: 11px; }
+.chat-text { margin: 0; font-size: 13px; line-height: 1.6; color: #65766b; white-space: pre-wrap; overflow-wrap: anywhere; }
+.chat-row.matched { background: #edf6e9; border-left: 3px solid #42825c; border-radius: 9px; padding: 13px 12px; margin: 4px -4px; }
+.matched .chat-text { color: #173f2b; font-size: 14px; font-weight: 550; }
+.match-tag { color: #267148; font-size: 9px; letter-spacing: 1px; font-weight: 750; margin-left: auto; }
+.result-foot { padding: 10px 19px; border-top: 1px solid #edf0e9; color: var(--muted); font-size: 10px; }
+.footer { border-top: 1px solid var(--line); margin-top: 25px; padding-top: 18px; font-size: 11px; color: #7c8a7d; display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+@media (max-width: 760px) {
+  .block-container { padding: 1rem 1rem 2rem; }
+  .hero { padding: 28px 23px; border-radius: 18px; }
+  .hero h1 { letter-spacing: -1px; }
+  .archive-tag { font-size: 9px; letter-spacing: .8px; }
+  .rail-card { padding: 20px; }
+  .people { grid-template-columns: repeat(4, 1fr); }
+  .person { flex-direction: column; gap: 5px; }
+  .conversation { padding: 10px 13px; }
+}

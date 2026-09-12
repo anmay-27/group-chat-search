@@ -1,0 +1,860 @@
+{
+  "generated_at_utc": "2026-09-12T10:37:40.578910+00:00",
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "reference_date": "2026-06-30",
+  "index": {
+    "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "chat_sha256": "7158c7ffe0e03763a47ecddcbf4dbe8a6997b8fd874ed350a0501f60618d7fc2",
+    "shape": [
+      4503,
+      384
+    ]
+  },
+  "all_queries": {
+    "total_queries": 40,
+    "top_1_hits": 19,
+    "top_5_hits": 22,
+    "top_1_accuracy": 0.475,
+    "top_5_accuracy": 0.55
+  },
+  "zero_word_overlap_queries": {
+    "total_queries": 8,
+    "top_1_hits": 1,
+    "top_5_hits": 2,
+    "top_1_accuracy": 0.125,
+    "top_5_accuracy": 0.25
+  },
+  "by_category": {
+    "semantic": {
+      "total_queries": 22,
+      "top_1_hits": 8,
+      "top_5_hits": 11,
+      "top_1_accuracy": 0.36363636363636365,
+      "top_5_accuracy": 0.5
+    },
+    "person": {
+      "total_queries": 10,
+      "top_1_hits": 7,
+      "top_5_hits": 7,
+      "top_1_accuracy": 0.7,
+      "top_5_accuracy": 0.7
+    },
+    "time": {
+      "total_queries": 8,
+      "top_1_hits": 4,
+      "top_5_hits": 4,
+      "top_1_accuracy": 0.5,
+      "top_5_accuracy": 0.5
+    }
+  },
+  "queries": [
+    {
+      "query": "When did everyone settle on the holiday destination?",
+      "target_message_id": 1211,
+      "category": "semantic",
+      "zero_word_overlap": true,
+      "target_rank": null,
+      "retrieved_message_ids": [
+        3521,
+        3538,
+        2310,
+        129,
+        211
+      ],
+      "scores": [
+        0.4146690368652344,
+        0.3863414227962494,
+        0.30209559202194214,
+        0.2855162024497986,
+        0.2855162024497986
+      ]
+    },
+    {
+      "query": "Which vacation location won after all the debating?",
+      "target_message_id": 1211,
+      "category": "semantic",
+      "zero_word_overlap": true,
+      "target_rank": null,
+      "retrieved_message_ids": [
+        1878,
+        47,
+        152,
+        173,
+        243
+      ],
+      "scores": [
+        0.3671751916408539,
+        0.3671751618385315,
+        0.3671751618385315,
+        0.3671751618385315,
+        0.3671751618385315
+      ]
+    },
+    {
+      "query": "Where was our getaway eventually approved?",
+      "target_message_id": 1211,
+      "category": "semantic",
+      "zero_word_overlap": true,
+      "target_rank": null,
+      "retrieved_message_ids": [
+        2532,
+        2523,
+        4462,
+        3337,
+        3528
+      ],
+      "scores": [
+        0.390247106552124,
+        0.3747984766960144,
+        0.3687100410461426,
+        0.3399609625339508,
+        0.3166466951370239
+      ]
+    },
+    {
+      "query": "What lodging arrangement did everyone agree upon?",
+      "target_message_id": 2530,
+      "category": "semantic",
+      "zero_word_overlap": true,
+      "target_rank": null,
+      "retrieved_message_ids": [
+        2510,
+        1213,
+        2508,
+        4462,
+        3520
+      ],
+      "scores": [
+        0.4858865737915039,
+        0.43300968408584595,
+        0.4264308214187622,
+        0.33182767033576965,
+        0.31707948446273804
+      ]
+    },
+    {
+      "query": "Which overnight accommodation received collective approval?",
+      "target_message_id": 2530,
+      "category": "semantic",
+      "zero_word_overlap": true,
+      "target_rank": null,
+      "retrieved_message_ids": [
+        2508,
+        1196,
+        2510,
+        202,
+        236
+      ],
+      "scores": [
+        0.49337559938430786,
+        0.4214116930961609,
+        0.4195743203163147,
+        0.3832484483718872,
+        0.3832484483718872
+      ]
+    },
+    {
+      "query": "How much was the agreed nightly stay allowance?",
+      "target_message_id": 2530,
+      "category": "semantic",
+      "zero_word_overlap": true,
+      "target_rank": 1,
+      "retrieved_message_ids": [
+        2530,
+        4462,
+        129,
+        211,
+        268
+      ],
+      "scores": [
+        0.49675610661506653,
+        0.3993428945541382,
+        0.38285061717033386,
+        0.38285061717033386,
+        0.38285061717033386
+      ]
+    },
+    {
+      "query": "When will students present their working invention?",
+      "target_message_id": 3539,
+      "category": "semantic",
+      "zero_word_overlap": true,
+      "target_rank": 3,
+      "retrieved_message_ids": [
+        3541,
+        3517,
+        3539,
+        3533,
+        3527
+      ],
+      "scores": [
+        0.36459508538246155,
+        0.36243313550949097,
+        0.3386487364768982,
+        0.33563604950904846,
+        0.3243131637573242
+      ]
+    },
+    {
+      "query": "Which schedule was approved for showcasing our creation?",
+      "target_message_id": 3539,
+      "category": "semantic",
+      "zero_word_overlap": true,
+      "target_rank": null,
+      "retrieved_message_ids": [
+        3521,
+        3538,
+        2523,
+        2526,
+        3533
+      ],
+      "scores": [
+        0.4999401569366455,
+        0.4365299344062805,
+        0.328410267829895,
+        0.3226037621498108,
+        0.31309688091278076
+      ]
+    },
+    {
+      "query": "When did we decide where to go?",
+      "target_message_id": 1211,
+      "category": "semantic",
+      "target_rank": null,
+      "retrieved_message_ids": [
+        47,
+        152,
+        173,
+        243,
+        315
+      ],
+      "scores": [
+        0.3354909121990204,
+        0.3354909121990204,
+        0.3354909121990204,
+        0.3354909121990204,
+        0.3354909121990204
+      ]
+    },
+    {
+      "query": "When did we finally choose our destination?",
+      "target_message_id": 1211,
+      "category": "semantic",
+      "target_rank": null,
+      "retrieved_message_ids": [
+        1207,
+        1190,
+        47,
+        152,
+        173
+      ],
+      "scores": [
+        0.37213030457496643,
+        0.3636287450790405,
+        0.3143717050552368,
+        0.3143717050552368,
+        0.3143717050552368
+      ]
+    },
+    {
+      "query": "kab final hua tha kidhar jana hai?",
+      "target_message_id": 1211,
+      "category": "semantic",
+      "target_rank": 1,
+      "retrieved_message_ids": [
+        1211,
+        11,
+        23,
+        109,
+        113
+      ],
+      "scores": [
+        0.7543339729309082,
+        0.7259504795074463,
+        0.7259504795074463,
+        0.7259504795074463,
+        0.7259504795074463
+      ]
+    },
+    {
+      "query": "Manali locked kab hua?",
+      "target_message_id": 1211,
+      "category": "semantic",
+      "target_rank": 1,
+      "retrieved_message_ids": [
+        1211,
+        25,
+        50,
+        159,
+        204
+      ],
+      "scores": [
+        0.7389525771141052,
+        0.5412482023239136,
+        0.5412482023239136,
+        0.5412482023239136,
+        0.5412482023239136
+      ]
+    },
+    {
+      "query": "rehne ka kya final hua?",
+      "target_message_id": 2530,
+      "category": "semantic",
+      "target_rank": null,
+      "retrieved_message_ids": [
+        2,
+        6,
+        251,
+        255,
+        299
+      ],
+      "scores": [
+        0.7049268484115601,
+        0.7049268484115601,
+        0.7049268484115601,
+        0.7049268484115601,
+        0.7049268484115601
+      ]
+    },
+    {
+      "query": "Did we finalize a hostel for 2500 per person?",
+      "target_message_id": 2530,
+      "category": "semantic",
+      "target_rank": 1,
+      "retrieved_message_ids": [
+        2530,
+        2508,
+        2509,
+        2506,
+        2510
+      ],
+      "scores": [
+        0.7567431926727295,
+        0.5698463916778564,
+        0.4046909809112549,
+        0.4002392888069153,
+        0.33748820424079895
+      ]
+    },
+    {
+      "query": "What was the final project demonstration date?",
+      "target_message_id": 3539,
+      "category": "semantic",
+      "target_rank": 4,
+      "retrieved_message_ids": [
+        3527,
+        3533,
+        3541,
+        3539,
+        202
+      ],
+      "scores": [
+        0.48123812675476074,
+        0.42272722721099854,
+        0.4106769263744354,
+        0.37971431016921997,
+        0.34488415718078613
+      ]
+    },
+    {
+      "query": "prototype kab dikhayenge?",
+      "target_message_id": 3539,
+      "category": "semantic",
+      "target_rank": 2,
+      "retrieved_message_ids": [
+        3514,
+        3539,
+        1209,
+        3526,
+        3527
+      ],
+      "scores": [
+        0.6548638939857483,
+        0.5438165664672852,
+        0.5293257832527161,
+        0.5285476446151733,
+        0.5148234963417053
+      ]
+    },
+    {
+      "query": "Where were the missing keys found?",
+      "target_message_id": 863,
+      "category": "semantic",
+      "target_rank": null,
+      "retrieved_message_ids": [
+        199,
+        277,
+        285,
+        450,
+        486
+      ],
+      "scores": [
+        0.36013615131378174,
+        0.36013615131378174,
+        0.36013615131378174,
+        0.36013615131378174,
+        0.36013615131378174
+      ]
+    },
+    {
+      "query": "Where can I collect the laptop charger?",
+      "target_message_id": 1665,
+      "category": "semantic",
+      "target_rank": 1,
+      "retrieved_message_ids": [
+        1665,
+        3537,
+        3526,
+        2532,
+        71
+      ],
+      "scores": [
+        0.6463954448699951,
+        0.5495219230651855,
+        0.3392486572265625,
+        0.3131271004676819,
+        0.30584263801574707
+      ]
+    },
+    {
+      "query": "Which cake was ordered for the birthday?",
+      "target_message_id": 2310,
+      "category": "semantic",
+      "target_rank": 1,
+      "retrieved_message_ids": [
+        2310,
+        3521,
+        2526,
+        2511,
+        4495
+      ],
+      "scores": [
+        0.7681028842926025,
+        0.35690462589263916,
+        0.34501737356185913,
+        0.3431038558483124,
+        0.33267414569854736
+      ]
+    },
+    {
+      "query": "What time and platform does our train leave from?",
+      "target_message_id": 3193,
+      "category": "semantic",
+      "target_rank": 1,
+      "retrieved_message_ids": [
+        3193,
+        29,
+        54,
+        163,
+        208
+      ],
+      "scores": [
+        0.8411670923233032,
+        0.4358714520931244,
+        0.4358714520931244,
+        0.4358714520931244,
+        0.4358714520931244
+      ]
+    },
+    {
+      "query": "Who packed bandages for emergencies?",
+      "target_message_id": 3845,
+      "category": "semantic",
+      "target_rank": 1,
+      "retrieved_message_ids": [
+        3845,
+        4502,
+        19,
+        77,
+        133
+      ],
+      "scores": [
+        0.6179686188697815,
+        0.40369805693626404,
+        0.4036979675292969,
+        0.4036979675292969,
+        0.4036979675292969
+      ]
+    },
+    {
+      "query": "Does anyone have a spare umbrella?",
+      "target_message_id": 4004,
+      "category": "semantic",
+      "target_rank": null,
+      "retrieved_message_ids": [
+        218,
+        222,
+        335,
+        363,
+        647
+      ],
+      "scores": [
+        0.6397066712379456,
+        0.6397066712379456,
+        0.6397066712379456,
+        0.6397066712379456,
+        0.6397066712379456
+      ]
+    },
+    {
+      "query": "What did Priya say about our budget?",
+      "target_message_id": 2509,
+      "category": "person",
+      "target_rank": null,
+      "retrieved_message_ids": [
+        2520,
+        580,
+        1567,
+        1672,
+        3005
+      ],
+      "scores": [
+        0.3490273654460907,
+        0.33757179975509644,
+        0.33757179975509644,
+        0.33757179975509644,
+        0.33757179975509644
+      ]
+    },
+    {
+      "query": "Priya ne paiso ko leke kya bola tha?",
+      "target_message_id": 2509,
+      "category": "person",
+      "target_rank": null,
+      "retrieved_message_ids": [
+        142,
+        167,
+        1560,
+        1942,
+        1955
+      ],
+      "scores": [
+        0.7469230890274048,
+        0.7469230890274048,
+        0.7469230890274048,
+        0.7469230890274048,
+        0.7469230890274048
+      ]
+    },
+    {
+      "query": "What is Priya's maximum spending limit?",
+      "target_message_id": 2509,
+      "category": "person",
+      "target_rank": 1,
+      "retrieved_message_ids": [
+        2509,
+        2506,
+        2520,
+        1388,
+        1889
+      ],
+      "scores": [
+        0.40076038241386414,
+        0.3610301613807678,
+        0.34859025478363037,
+        0.3269230127334595,
+        0.3269230127334595
+      ]
+    },
+    {
+      "query": "What did Rahul confirm about Manali?",
+      "target_message_id": 1211,
+      "category": "person",
+      "target_rank": 1,
+      "retrieved_message_ids": [
+        1211,
+        434,
+        776,
+        850,
+        1144
+      ],
+      "scores": [
+        0.5195146203041077,
+        0.5012179613113403,
+        0.5012179613113403,
+        0.5012179613113403,
+        0.5012179613113403
+      ]
+    },
+    {
+      "query": "What did Simran suggest booking for 2500?",
+      "target_message_id": 2530,
+      "category": "person",
+      "target_rank": 1,
+      "retrieved_message_ids": [
+        2530,
+        3516,
+        720,
+        973,
+        2082
+      ],
+      "scores": [
+        0.3671684265136719,
+        0.3107658326625824,
+        0.2918195426464081,
+        0.2918195426464081,
+        0.2918195426464081
+      ]
+    },
+    {
+      "query": "What date did Neha confirm for the prototype?",
+      "target_message_id": 3539,
+      "category": "person",
+      "target_rank": 1,
+      "retrieved_message_ids": [
+        3539,
+        3514,
+        2517,
+        761,
+        1270
+      ],
+      "scores": [
+        0.3803250193595886,
+        0.3410705327987671,
+        0.3181888461112976,
+        0.3084872364997864,
+        0.3084872364997864
+      ]
+    },
+    {
+      "query": "Where did Riya find her keys?",
+      "target_message_id": 863,
+      "category": "person",
+      "target_rank": null,
+      "retrieved_message_ids": [
+        239,
+        416,
+        1227,
+        1267,
+        3195
+      ],
+      "scores": [
+        0.33593782782554626,
+        0.33593782782554626,
+        0.33593782782554626,
+        0.33593782782554626,
+        0.33593782782554626
+      ]
+    },
+    {
+      "query": "Where did Arjun leave the charger?",
+      "target_message_id": 1665,
+      "category": "person",
+      "target_rank": 1,
+      "retrieved_message_ids": [
+        1665,
+        1192,
+        2518,
+        16,
+        342
+      ],
+      "scores": [
+        0.5142437219619751,
+        0.3899451494216919,
+        0.36092182993888855,
+        0.3450250029563904,
+        0.3450250029563904
+      ]
+    },
+    {
+      "query": "What did Priya say about the bus refund?",
+      "target_message_id": 3337,
+      "category": "person",
+      "target_rank": 1,
+      "retrieved_message_ids": [
+        3337,
+        4462,
+        41,
+        191,
+        378
+      ],
+      "scores": [
+        0.6863268613815308,
+        0.38518837094306946,
+        0.30712008476257324,
+        0.30712008476257324,
+        0.30712008476257324
+      ]
+    },
+    {
+      "query": "When is Aman's dentist appointment?",
+      "target_message_id": 326,
+      "category": "person",
+      "target_rank": 1,
+      "retrieved_message_ids": [
+        326,
+        586,
+        814,
+        2444,
+        2587
+      ],
+      "scores": [
+        0.6146916151046753,
+        0.34383994340896606,
+        0.34383994340896606,
+        0.34383994340896606,
+        0.34383994340896606
+      ]
+    },
+    {
+      "query": "What did we discuss in February about our destination?",
+      "target_message_id": 1211,
+      "category": "time",
+      "target_rank": null,
+      "retrieved_message_ids": [
+        1190,
+        797,
+        826,
+        880,
+        1169
+      ],
+      "scores": [
+        0.32264524698257446,
+        0.29401102662086487,
+        0.29401102662086487,
+        0.29401102662086487,
+        0.29401102662086487
+      ]
+    },
+    {
+      "query": "What accommodation did we settle on in April?",
+      "target_message_id": 2530,
+      "category": "time",
+      "target_rank": null,
+      "retrieved_message_ids": [
+        2510,
+        2511,
+        2325,
+        2362,
+        2495
+      ],
+      "scores": [
+        0.373190701007843,
+        0.2898634076118469,
+        0.2895890474319458,
+        0.2895890474319458,
+        0.2895890474319458
+      ]
+    },
+    {
+      "query": "What did we discuss last month?",
+      "target_message_id": 3539,
+      "category": "time",
+      "target_rank": null,
+      "retrieved_message_ids": [
+        3525,
+        3533,
+        3003,
+        3040,
+        3044
+      ],
+      "scores": [
+        0.489351361989975,
+        0.38758784532546997,
+        0.33318012952804565,
+        0.33318012952804565,
+        0.33318012952804565
+      ]
+    },
+    {
+      "query": "What did Priya say about refunds in May?",
+      "target_message_id": 3337,
+      "category": "time",
+      "target_rank": 1,
+      "retrieved_message_ids": [
+        3337,
+        3235,
+        3005,
+        3757,
+        3088
+      ],
+      "scores": [
+        0.391323059797287,
+        0.3362382650375366,
+        0.32341331243515015,
+        0.30604034662246704,
+        0.30345618724823
+      ]
+    },
+    {
+      "query": "What exam room changed last week?",
+      "target_message_id": 4286,
+      "category": "time",
+      "target_rank": 1,
+      "retrieved_message_ids": [
+        4286,
+        4341,
+        4374,
+        4378,
+        4411
+      ],
+      "scores": [
+        0.606992244720459,
+        0.317410945892334,
+        0.317410945892334,
+        0.317410945892334,
+        0.317410945892334
+      ]
+    },
+    {
+      "query": "What payment was made yesterday?",
+      "target_message_id": 4462,
+      "category": "time",
+      "target_rank": 1,
+      "retrieved_message_ids": [
+        4462,
+        4459,
+        4475,
+        4457,
+        4456
+      ],
+      "scores": [
+        0.4253004491329193,
+        0.2902544140815735,
+        0.2665393352508545,
+        0.23143208026885986,
+        0.23097781836986542
+      ]
+    },
+    {
+      "query": "What food did we order today?",
+      "target_message_id": 4495,
+      "category": "time",
+      "target_rank": 1,
+      "retrieved_message_ids": [
+        4495,
+        4493,
+        4496,
+        4498,
+        4484
+      ],
+      "scores": [
+        0.5342620611190796,
+        0.45904842019081116,
+        0.32214727997779846,
+        0.2558770477771759,
+        0.23285740613937378
+      ]
+    },
+    {
+      "query": "Where is the spare umbrella this month?",
+      "target_message_id": 4004,
+      "category": "time",
+      "target_rank": null,
+      "retrieved_message_ids": [
+        3964,
+        3992,
+        4042,
+        4072,
+        4108
+      ],
+      "scores": [
+        0.6439011693000793,
+        0.6439011693000793,
+        0.6439011693000793,
+        0.6439011693000793,
+        0.6439011693000793
+      ]
+    }
+  ]
+}
